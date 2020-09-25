@@ -2,13 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackageId>Swashbuckle.AspNetCore.SwaggerGen.ConventionalRoutingWithStrongName</PackageId>
   </PropertyGroup>
 
   <PropertyGroup>
     <LangVersion>8.0</LangVersion>
     <Authors>Christos Sakellarios,li-zhixin</Authors>
     <Company />
-    <PackageProjectUrl>Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting</PackageProjectUrl>
+    <PackageProjectUrl>Swashbuckle.AspNetCore.SwaggerGen.ConventionalRoutingWithStrongName</PackageProjectUrl>
     <RepositoryUrl>https://github.com/li-zhixin/Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting</RepositoryUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/li-zhixin/Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting/master/LICENSE</PackageLicenseUrl>
     <PackageTags>swagger, documentation, discovery, help, webapi, aspnet, aspnetcore</PackageTags>
