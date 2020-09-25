@@ -8,4 +8,8 @@
     <ProjectReference Include="..\Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting\Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="StrongNamer" Version="0.2.5" />
+  </ItemGroup>
+
 </Project>
