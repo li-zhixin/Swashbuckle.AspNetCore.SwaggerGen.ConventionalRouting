@@ -5,6 +5,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>keypair.snk</AssemblyOriginatorKeyFile>
     <PublicSign>true</PublicSign>
+    <PackageVersion>2.2.1.9</PackageVersion>
   </PropertyGroup>
 
   <PropertyGroup>
