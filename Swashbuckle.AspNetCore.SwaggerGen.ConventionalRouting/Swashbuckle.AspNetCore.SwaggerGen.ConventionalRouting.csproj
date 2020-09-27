@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <PackageId>Swashbuckle.AspNetCore.SwaggerGen.ConventionalRoutingWithStrongName</PackageId>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>keypair.snk</AssemblyOriginatorKeyFile>
+    <PublicSign>true</PublicSign>
+    <PackageVersion>3.0.1.9</PackageVersion>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -20,7 +24,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="2.2.0" />
-    <PackageReference Include="StrongNamer" Version="0.2.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.5.1" />
   </ItemGroup>
