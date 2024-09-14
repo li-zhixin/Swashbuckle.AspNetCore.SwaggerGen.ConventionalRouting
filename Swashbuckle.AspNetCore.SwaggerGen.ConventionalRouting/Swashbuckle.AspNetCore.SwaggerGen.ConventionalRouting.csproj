@@ -10,12 +10,13 @@
     <Authors>Christos Sakellarios</Authors>
     <Company />
     <PackageProjectUrl>Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting</PackageProjectUrl>
+    <PackageId>Swashbuckle.AspNetCore.SwaggerGen.ConventionalRoutingWithStrongName</PackageId>
     <RepositoryUrl>https://github.com/chsakell/Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting</RepositoryUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/chsakell/Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting/master/LICENSE</PackageLicenseUrl>
     <PackageTags>swagger, documentation, discovery, help, webapi, aspnet, aspnetcore</PackageTags>
     <Product />
     <Description>Swagger Generator extension for ASP.NET Core APIs built using conventional routing</Description>
-    <Version>4.3.0</Version>
+    <Version>4.3.1</Version>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.2' ">
@@ -23,8 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
+    <PackageReference Include="StrongNamer" Version="0.2.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.7.3" />
   </ItemGroup>
 
 </Project>

@@ -6,11 +6,11 @@ using Swashbuckle.AspNetCore.Swagger;
 
 namespace Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting
 {
-    public interface IConventionalRoutingSwaggerProvider : ISwaggerProvider
+    public interface IConventionalRoutingSwaggerProvider : ISwaggerProvider, IAsyncSwaggerProvider
     {
 
     }
-
+    
     public class ConventionalRoutingSwaggerGenerator : SwaggerGenerator, IConventionalRoutingSwaggerProvider
     {
         public ConventionalRoutingSwaggerGenerator(SwaggerGeneratorOptions options, 

@@ -41,6 +41,15 @@ namespace Swashbuckle.AspNetCore.SwaggerGen.ConventionalRouting
                     ServiceLifetime.Singleton);
 
             services.Replace(swaggerDescriptionProviderDescriptor);
+            
+            
+            var asyncSwaggerDescriptionProviderDescriptor =
+                new ServiceDescriptor(
+                    typeof(IAsyncSwaggerProvider),
+                    typeof(ConventionalRoutingSwaggerGenerator),
+                    ServiceLifetime.Singleton);
+
+            services.Replace(asyncSwaggerDescriptionProviderDescriptor);
 
             return services;
         }
